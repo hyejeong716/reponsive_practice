@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>반응형 연습 one scroll_FullPage</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  
+  <script src="script/js.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <div class="header_in">
+      <h1>
+        <span>One Scroll Page</span>
+        <i class="fa-brands fa-galactic-senate"></i>
+      </h1>
+
+      <div class="nav_wrap"> <!-- 상단메뉴 -->
+        <nav>
+        <ul>
+          <li><a href="#s1">Home</a></li>
+          <li><a href="#s2">Html5</a></li>
+          <li><a href="#s3">Css3</a></li>
+          <li><a href="#s4">Responsive</a></li>
+          <li><a href="#s5">Javascript</a></li>
+          <li><a href="#s6">Resume</a></li>
+        </ul>
+        </nav>
+      </div>
+      <div class="trigger">
+        <a href="#" class="btn">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section id="s1">
+    <video autoplay muted loop>
+      <source src="img/13220694-sd_960_540_30fps.mp4" type="video/mp4">
+    </video>
+    <div class="main_text">
+        <h2>One Scroll Page</h2>
+        <p>javascript가 적용된 원스크롤 페이지입니다. </p>
+          <div class="btnDown">
+            <span>밑 페이지</span>
+          </div>
+    </div>
+  </section>
+
+  <section id="s2">
+    <h2>Html5</h2>
+    <div class="btnDown"><span>밑 페이지</span></div>
+  </section>
+
+  <section id="s3">
+    <iframe class="overlay_video" 
+      src="https://www.youtube.com/embed/tm4d9zb_o5c?autoplay=1&mute=1&controls=0&rel=0&loop=1" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope;" 
+      allowfullscreen>
+    </iframe>
+    <div class="s3_text">
+      <h2>Css3</h2>
+      <div class="btnDown"><span>밑 페이지</span></div>
+    </div>
+  </section>
+
+  <section id="s4">
+    <video autoplay muted loop>
+      <source src="img/5614886-hd_1280_720_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="s4_text">
+      <h2>Responsive</h2>
+      <div class="btnDown"><span>밑 페이지</span></div>
+    </div>
+  </section>
+
+  <section id="s5">
+    <h2>Javascript</h2>
+    <div class="btnDown"><span>밑 페이지</span></div>
+  </section>
+
+  <section id="s6"> 
+    <!-- 엔터없이[&=추가]
+    autoplay(반복재생)=1&
+    mute(자동재생시소리차단)=1&
+    controls((재생/일시정지, 볼륨 바 등)를 표시하지 않도록)=0&
+    rel(Relative 같은채널의타영상방지)=0&
+    loop(무한루프)=1  -->
+    <iframe class="overlay_video" 
+      src="https://www.youtube.com/embed/L8ZnXgbyUuc?autoplay=1&mute=1&controls=0&rel=0&loop=1" 
+        
+      frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope;" 
+      allowfullscreen>
+    </iframe>
+    
+    <div class="s6_text">
+      <h2>YouTube Background</h2>
+    </div>
+  </section>
+
+</body>
+</html>
