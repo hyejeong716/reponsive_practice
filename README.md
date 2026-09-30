@@ -1,1 +1,0 @@
-# reponsive_practics
